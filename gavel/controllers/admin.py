@@ -7,17 +7,12 @@ from flask import (
     redirect,
     render_template,
     request,
-    url_for,
-    Response
+    url_for
 )
 import urllib.parse
 import xlrd
 
 ALLOWED_EXTENSIONS = set(['csv', 'xlsx', 'xls'])
-
-@app.route('/admin/test')
-def test():
-    return Response("It's worked")
 @app.route('/admin/')
 @utils.requires_auth
 def admin():
