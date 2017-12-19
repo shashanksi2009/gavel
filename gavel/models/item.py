@@ -11,7 +11,7 @@ class Item(db.Model):
     id = db.Column(db.Integer, primary_key=True, nullable=False)
     name = db.Column(db.Text, nullable=False, unique=True)                      # team name
     location = db.Column(db.Text, nullable=False, unique=True)                  # Seat alloted
-    secret_key = db.Coloumn(db.Text, nullable=False, unique=True)               # Alloted secret key
+    secret_key = db.Column(db.Text, nullable=False, unique=True)               # Alloted secret key
     title = db.Column(db.Text, default="", nullable=False)                      # Project Title
     description = db.Column(db.Text, default="", nullable=False)                # Project description
     demo_link = db.Column(db.Text, default="", nullable=False)                  # Project demo video
