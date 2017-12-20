@@ -6,16 +6,12 @@
     box-sizing: border-box;
 }
 
-body {
-	font-family: 'Raleway', sans-serif;
-}
-
-nav a {
+.cl-effect a {
 	position: relative;
 	display: inline-block;
 	margin: 15px 25px;
 	outline: none;
-	color: #fff;
+	color: #76c67b;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -24,9 +20,10 @@ nav a {
 	font-size: 1.35em;
 }
 
-nav a:hover,
-nav a:focus {
+.cl-effect a:hover,
+.cl-effect a:focus {
 	outline: none;
+	text-decoration: none;
 }
 
 /* Effect 1: Brackets */
