@@ -1,8 +1,8 @@
 {% extends "layout.html" %}
 {% block title %}Admin{% endblock %}
 {% block content %}
-<link rel="stylesheet" type="text/css" href="css/admin.css">
-<script src="/js/admin.js">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/admin.css') }}">
+<script src="{{ url_for('static', filename='js/admin.js') }}">
 <div id="cbp-so-scroller" class="cbp-so-scroller">
 
 	<section class="cbp-so-section">
