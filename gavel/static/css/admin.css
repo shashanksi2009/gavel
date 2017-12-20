@@ -449,5 +449,5 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
-    font-weight:  900;
+    font-weight:  900!important;
 }
