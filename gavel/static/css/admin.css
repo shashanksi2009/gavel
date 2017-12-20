@@ -54,15 +54,15 @@ body {
 
 .side-left {
 	left: 0;
-	background: #47a3da;
+	background: #77c57c;
 	color: #fff;
-	outline: 1px solid #47a3da; /* avoid gap */
+	outline: 1px solid #77c57c; /* avoid gap */
 }
 
 .side-right {
 	right: 0;
 	background: #fff;
-	color: #47a3da;
+	color: #77c57c;
 	outline: 1px solid #fff; /* avoid gap */
 }
 
@@ -83,7 +83,7 @@ body {
 	width: 140px;
 	height: 140px;
 	border-radius: 50%;
-	background: #47a3da;
+	background: #77c57c;
 }
 
 .profile img {
@@ -122,7 +122,7 @@ body {
 }
 
 .side-right .intro-content h1 > span:nth-child(2):before {
-	background: #47a3da;
+	background: #77c57c;
 }
 
 .back {
@@ -134,7 +134,7 @@ body {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	color: #47a3da;
+	color: #77c57c;
 	text-align: center;
 	font-size: 22px;
 	line-height: 44px;
