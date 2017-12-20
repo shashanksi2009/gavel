@@ -434,7 +434,7 @@ body {
 	body { font-size: 70%; }
 }
 
-.admin-header {
+.admin-header>img {
     position:  absolute;
     left: 20px;
     top: 20px;
