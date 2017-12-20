@@ -176,7 +176,7 @@ body {
 
 /* Pages */
 .page {
-	position: fixed;
+	position: fixed!important;
 	top: 0;
 	overflow: auto;
 	min-height: 100vh;
