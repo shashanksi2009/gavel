@@ -24,6 +24,7 @@
 .cl-effect a:focus {
 	outline: none;
 	text-decoration: none;
+	color: #76c67b;
 }
 
 /* Effect 1: Brackets */
