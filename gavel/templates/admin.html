@@ -3,34 +3,44 @@
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/admin.css') }}">
 <script src="{{ url_for('static', filename='js/admin.js') }}"></script>
-<div id="cbp-so-scroller" class="cbp-so-scroller">
-
-	<section class="cbp-so-section">
-		<article class="cbp-so-side cbp-so-side-left">
-			<h2>Lemon drops</h2>
-			<p>Fruitcake toffee jujubes. Topping biscuit sesame snaps jelly caramels jujubes tiramisu fruitcake. Marzipan tart lemon drops chocolate sesame snaps jelly beans.</p>
-		</article>
-		<figure class="cbp-so-side cbp-so-side-right">
-			<img src="{{ url_for('static', filename='media/participant.png') }}" alt="img01">
-		</figure>
-	</section>
-
-	<section class="cbp-so-section">
-		<figure class="cbp-so-side cbp-so-side-left">
-			<img src="{{ url_for('static', filename='media/judge.png') }}" alt="img02">
-		</figure>
-		<article class="cbp-so-side cbp-so-side-right">
-			<h2>Plum caramels</h2>
-			<p>Lollipop powder danish sugar plum caramels liquorice sweet cookie. Gummi bears caramels gummi bears candy canes cheesecake sweet roll icing dragée. Gummies jelly-o tart. Cheesecake unerdwear.com candy canes apple pie halvah chocolate tiramisu.</p>
-		</article>
-	</section>
-
-	<section>
-		<!-- ... -->
-	</section>
-	<!-- ... -->
-	
-</div>
+<div class="container">
+	<div id="splitlayout" class="splitlayout">
+		<div class="intro">
+			<div class="side side-left">
+				<div class="intro-content">
+					<div class="profile"><img src="{{ url_for('static', filename='media/participant.png') }}" alt="profile1"></div>
+					<h1><span>Toby Blue </span><span>Web Designer</span></h1>
+				</div>
+				<div class="overlay"></div>
+			</div>
+			<div class="side side-right">
+				<div class="intro-content">
+					<div class="profile"><img src="{{ url_for('static', filename='media/judge.png') }}" alt="profile2"></div>
+					<h1><span>Amy White </span><span>Web Developer</span></h1>
+				</div>
+				<div class="overlay"></div>
+			</div>
+		</div><!-- /intro -->
+		<div class="page page-right page-large">
+			<div class="page-inner">
+				<section>
+					<!-- content -->
+				</section>
+				<section>
+					<!-- content -->
+				</section>
+				<!-- ... -->
+			</div><!-- /page-inner -->
+		</div><!-- /page-right -->
+		<div class="page page-left page-fill">
+			<div class="page-inner">
+				<!-- ... -->
+			</div><!-- /page-inner -->
+		</div><!-- /page-left -->
+		<a href="#" class="back back-right" title="back to intro">→</a>
+		<a href="#" class="back back-left" title="back to intro">←</a>
+	</div><!-- /splitlayout -->
+</div><!-- /container -->
 {% endblock %}
 {% block end %}
 <script src="{{ url_for('static', filename='js/vendor/tablesort.min.js') }}"></script>
