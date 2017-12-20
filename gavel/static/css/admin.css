@@ -331,7 +331,8 @@ body {
 	transform: translateY(-50%) translateX(-100%) scale(0.6);
 }
 
-.open-left .on-split {
+.open-left .on-split, 
+.open-right .on-split {
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: opacity 0.3s, visibility 0.1s 0.3s;
