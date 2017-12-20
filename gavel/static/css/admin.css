@@ -201,8 +201,8 @@ body {
 
 .page-left {
 	left: 0;
-	outline: 5px solid #34495e; /* avoid rounding gaps */
-	background: #34495e;
+	outline: 5px solid #b9d8bb; /* avoid rounding gaps */
+	background: #b9d8bb;
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);
@@ -210,7 +210,7 @@ body {
 }
 
 .splitlayout.open-left {
-	background: #34495e;
+	background: #b9d8bb;
 }
 
 /* Inner page content */
