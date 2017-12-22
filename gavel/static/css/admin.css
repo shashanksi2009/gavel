@@ -522,9 +522,8 @@ body {
 .bs-popover-bottom .popover-header{
     text-align: center;
     background-color: #76c67b;
-    color: white;
     font-size: 20px;
-    color: #76c67b!important;
+    color: white!important;
     font-weight: 900!important:
 }
 .bs-popover-bottom .arrow:after{
