@@ -74,6 +74,7 @@
         var sv = sw.val(); 
         if( sv=="on" ) sw.val("off");
         else sw.val("on");
+        $(this).parent().toggleClass("switchON switchOFF");
     });
 
 })();
