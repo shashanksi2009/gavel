@@ -476,12 +476,12 @@ body {
     box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-    content: "OPEN";
+    content: "";
     padding-left: 10px;
     background-color: #76c67b; color: #FFFFFF;
 }
 .onoffswitch-inner:after {
-    content: "CLOSED";
+    content: "";
     padding-right: 10px;
     background-color: #EEEEEE; color: #999999;
     text-align: right;
