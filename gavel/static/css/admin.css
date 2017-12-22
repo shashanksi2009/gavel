@@ -508,3 +508,25 @@ body {
 .switchOFF .onoffswitch-label .onoffswitch-switch {
     right: 56px; 
 }
+.bs-popover-bottom{
+    box-shadow: 0 0 10px 0.01px #aee2b1;
+}
+.bs-popover-bottom *{
+    color: #76c67b!important;
+    font-weight: 900!important:
+}
+.bs-popover-bottom table, .bs-popover-bottom tr, .bs-popover-bottom td{
+    border: 0;
+}
+.bs-popover-bottom table{
+    margin-left: 12px;
+}
+.bs-popover-bottom .popover-header{
+    text-align: center;
+    background-color: #76c67b;
+    color: white;
+    font-size: 20px;
+}
+.bs-popover-bottom .arrow:after{
+    border-bottom-color: #76c67b;
+}
