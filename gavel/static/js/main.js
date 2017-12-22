@@ -7,7 +7,7 @@ $(this).popover({
     return $('#popover-content-' + id).html();
   }
 })
-.on('show.bs.popover', function(){
+.on('shown.bs.popover', function(){
     $(".onoffswitch-label").off("click","**").click( function(){
         var sw = $(this).parent().find("input"); 
         var sv = sw.val(); 
