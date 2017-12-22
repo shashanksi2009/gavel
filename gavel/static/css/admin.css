@@ -497,9 +497,3 @@ body {
     border: 2px solid #999999; border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
 }
-.onoffswitch:focus .onoffswitch-label .onoffswitch-inner {
-    margin-left: 0;
-}
-.onoffswitch:focus .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
-}
