@@ -6,8 +6,16 @@ $(this).popover({
     var id = $(this).attr('id')
     return $('#popover-content-' + id).html();
   }
-});
-
+})
+.on('show.bs.popover', function(){
+    $(".onoffswitch-label").off("click","**").click( function(){
+        var sw = $(this).parent().find("input"); 
+        var sv = sw.val(); 
+        if( sv=="on" ) sw.val("off");
+        else sw.val("on");
+        $(this).parent().toggleClass("switchON switchOFF");
+       });
+    });
 });
 
 $('body').on('click', function (e) {
