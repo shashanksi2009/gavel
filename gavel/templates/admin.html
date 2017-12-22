@@ -17,7 +17,8 @@
 			</div>
 			<div class="side side-right">
         <nav class="admin-tag on-split cl-effect cl-effect-1">
-          <a href="#">#admin</a>
+          <a id="admin-set" data-toggle="popover" title="Settings" data-placement="bottom" data-trigger="focus" href="#">#admin</a>
+          <div id="popover-content-admin-set" class="hide">
           <table>
             <tbody>
               <tr>
@@ -52,6 +53,7 @@
               </tr>
             </tbody>
           </table>
+          </div>
         </nav>
 				<div class="intro-content">
 					<div class="profile"><img src="{{ url_for('static', filename='media/judge.png') }}" alt="profile2"></div>
