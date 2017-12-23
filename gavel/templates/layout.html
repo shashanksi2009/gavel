@@ -85,13 +85,13 @@
   </head>
   <body>
     <div class="loader">
-      <img src="{{ url_for('static', filename='media/logo_hack36_front.png') }}">
       <div class="hidder">
          <div class="bar">
             <div class="circle"></div>
             <p>loading...</p>
          </div>
       </div>
+      <img id="loader-img" src="{{ url_for('static', filename='media/logo_hack36_front.png') }}">
     </div>
     <div id="content">
       {% block content %}
