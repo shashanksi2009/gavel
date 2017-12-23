@@ -17,7 +17,8 @@ $(this).popover({
             else sw.val("on");
             $(this).parent().toggleClass("switchON switchOFF");
           }
-    });
+        });
+   });
 });
 
 $('body').on('click', function (e) {
