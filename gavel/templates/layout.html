@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <noscript>
+      <style>.loader { display: none; } </style>
+    </noscript>
     <style>
       .loader{
         top:0;
@@ -91,6 +94,11 @@
     <title>{% block title %}{% endblock %} &middot; Hack36 Judge</title>
     {% block head %}
     {% endblock %}
+    <script>
+    $(window).load(function(){
+        $(".loader").fadeOut(500);
+    });
+</script>
   </head>
   <body>
     <div class="loader">
