@@ -8,6 +8,7 @@ html, body,
 body {
 	overflow-y: scroll;
 	background: #333;
+  font-family: monospace;
 }
 
 .splitlayout {
@@ -510,6 +511,7 @@ body {
 }
 .bs-popover-bottom{
     box-shadow: -1px -1px 10px 0.01px #aee2b1;
+    border-radius: 5px 5px 15px 15px;
 }
 .bs-popover-bottom table, .bs-popover-bottom tr, .bs-popover-bottom td{
     border: 0;
