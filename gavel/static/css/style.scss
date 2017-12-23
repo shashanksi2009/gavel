@@ -316,9 +316,9 @@ input[type=submit].neutral {
     color: white!important;
     position: fixed!important;
     bottom: 0!important;
-    right: 15px!important;
+    right: -100%;
     background: #76c67b!important;
     z-index: 999!important;
     box-shadow: -1px 1px 20px 1px #88e48e!important;
-    display: none!important;
+    display: none;
 }
