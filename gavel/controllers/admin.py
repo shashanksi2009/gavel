@@ -15,7 +15,7 @@ import xlrd
 ALLOWED_EXTENSIONS = set(['csv', 'xlsx', 'xls'])
 @app.route('/admin/new')
 @utils.requires_auth
-def admin():
+def adminnew():
     annotators = Annotator.query.order_by(Annotator.id).all()
     items = Item.query.order_by(Item.id).all()
     decisions = Decision.query.all()
