@@ -96,8 +96,8 @@
     {% endblock %}
     <script>
     $(window).on( "load" , function(){
-        $(".loader").delay(1000).fadeOut(500);
-        $("#content").fadeOut().delay(1000).fadeIn(500);
+        $(".loader").delay(1000).slideUp(500);
+        $("#content").css( { 'display' : 'none' } ).delay(1000).slideUp(500);
     });
 </script>
   </head>
