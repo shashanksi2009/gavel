@@ -97,7 +97,7 @@
     <script>
     $(window).on( "load" , function(){
         $(".loader").delay(1000).slideUp(500);
-        $("#content").css( { 'top' : '-100%' } ).delay(1000).slideUp(500);
+        $(".loader").delay(1000).fadeOut(500);
     });
 </script>
   </head>
