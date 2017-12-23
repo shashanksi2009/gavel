@@ -310,3 +310,14 @@ input[type=submit].neutral {
 .switch-disabled{
   opacity:0.5;
 }
+.alertBox{
+    border-radius: 50% 15px 0px 15px;
+    border: 1px solid white;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    background: #76c67b;
+    z-index: 999;
+    box-shadow: -1px 1px 20px 1px #88e48e;
+}
