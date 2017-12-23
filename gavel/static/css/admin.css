@@ -532,6 +532,3 @@ body {
 .bs-popover-bottom .popover-header:before{
     border-bottom:none!important;
 }
-switch-disabled{
-  opacity:0.5;
-}
