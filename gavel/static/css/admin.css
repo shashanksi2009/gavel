@@ -526,6 +526,6 @@ body {
     color: white!important;
     font-weight: 900!important;
 }
-.bs-popover-bottom .arrow:after ,.bs-popover-bottom .popover-header:after{
+.bs-popover-bottom .arrow:after ,.bs-popover-bottom .popover-header:before{
     border-bottom:1px solid #76c67b!important;
 }
