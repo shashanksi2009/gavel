@@ -36,3 +36,11 @@ $(".onoffswitch-label").click( function(){
         else sw.val("on");
         $(this).parent().toggleClass("switchON switchOFF");
     });
+
+function showMsg( message , duration = 5000 ){
+        $(".alertBox")
+            .html( message )
+            .animate( {'right':'15px'} )
+            .delay( duration )
+            .animate( {'right':'-100%'} );
+    }
