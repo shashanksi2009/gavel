@@ -75,7 +75,67 @@
 		</div><!-- /page-right -->
 		<div class="page page-left page-fill">
 			<div class="page-inner">
-				<!-- ... -->
+          <div class="item">
+            <div class="banner">
+              <h2>Projects</h2>
+            </div>
+            <div class="info">
+              <table id="items">
+                <thead>
+                  <tr>
+                    <th data-sort-method="number">Id</th>
+                    <th data-sort-method="caseInsensitiveSort">Name</th>
+                    <th data-sort-method="caseInsensitiveSort">Location</th>
+                    <th data-sort-method="caseInsensitiveSort">Description</th>
+                    <th class="sort-default" data-sort-method="number" data-sort-order="desc">Mu</th>
+                    <th data-sort-method="number">Sigma Squared</th>
+                    <th data-sort-method="number">Votes</th>
+                    <th data-sort-method="number">Seen</th>
+                    <th data-sort-method="number" data-sort-order="desc">Skipped</th>
+                    <th data-sort-method="caseInsensitiveSort" data-sort-order="desc">Prioritize</th>
+                    <th data-sort-method="caseInsensitiveSort">Active</th>
+                    <th class="no-sort">Delete</th>
+                 </tr>
+              </thead>
+              <tbody>
+        
+                 <tr class="">
+                    <td><a href="/admin/item/1/" class="colored">1</a></td>
+                    <td>abc</td>
+                    <td>cde</td>
+                    <td class="preserve-formatting"></td>
+                    <td>0.0</td>
+                    <td>1.0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td class="compact" data-sort="False">
+                      <form action="/admin/item" method="post">
+                        <input type="submit" name="action" value="Prioritize" class="positive">
+                        <input type="hidden" name="item_id" value="1">
+                        <input type="hidden" name="_csrf_token" value="blr4nzroldvuue6znzxd3fisa5gpv67a">
+                      </form>
+                   </td>
+                   <td class="compact" data-sort="True">
+                      <form action="/admin/item" method="post">
+                        <input type="submit" name="action" value="Disable" class="negative">
+                        <input type="hidden" name="item_id" value="1">
+                        <input type="hidden" name="_csrf_token" value="blr4nzroldvuue6znzxd3fisa5gpv67a">
+                      </form>
+                 </td>
+                 <td class="compact">
+                   <form action="/admin/item" method="post">
+                      <input type="submit" name="action" value="Delete" class="negative">
+                      <input type="hidden" name="item_id" value="1">
+                      <input type="hidden" name="_csrf_token" value="blr4nzroldvuue6znzxd3fisa5gpv67a">
+                  </form>
+               </td>
+             </tr>
+        
+            </tbody>
+          </table>
+          </div>
+        </div>
 			</div><!-- /page-inner -->
 		</div><!-- /page-left -->
 		<a href="#" class="back back-right" title="back to intro">→</a>
