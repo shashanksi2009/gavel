@@ -37,10 +37,21 @@ $(".onoffswitch-label").click( function(){
         $(this).parent().toggleClass("switchON switchOFF");
     });
 
-function showMsg( message , duration = 5000 ){
-        $(".alertBox")
-            .html( message )
-            .animate( {'right':'15px'} )
-            .delay( duration )
-            .animate( {'right':'-100%'} );
+function msg( message = '' , duration = 5000 , type='inout' ){
+        if( type == 'inout' ){
+            $(".alertBox")
+                .html( message )
+                .animate( {'right':'15px'} )
+                .delay( duration )
+                .animate( {'right':'-100%'} );
+         }
+        else if( type == 'in' ){
+            $(".alertBox")
+                .html( message )
+                .animate( {'right':'15px'} );
+         }
+        else if( type == 'out' ){
+            $(".alertBox")
+                .animate( {'right':'-100%'} );
+         }
     }
