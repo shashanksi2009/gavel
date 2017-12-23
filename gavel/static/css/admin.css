@@ -527,8 +527,8 @@ body {
     font-weight: 900!important;
 }
 .bs-popover-bottom .arrow:after {
-    border-bottom-color:1px solid #76c67b!important;
+    border-bottom-color:#76c67b!important;
 }
 .bs-popover-bottom .popover-header:before{
-    border-bottom:none;
+    border-bottom:none!important;
 }
