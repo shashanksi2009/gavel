@@ -534,3 +534,9 @@ body {
 .bs-popover-bottom .popover-header:before{
     border-bottom:none!important;
 }
+.haction{
+    padding: 0;
+}
+.haction li{
+    display: table-cell;
+}
