@@ -623,3 +623,6 @@ td.haction {
     width: 80px;
     margin: auto;
 }
+.page-left tr:hover{
+    background-color: dimgrey!important;
+}
