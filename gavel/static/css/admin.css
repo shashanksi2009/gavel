@@ -543,3 +543,12 @@ body {
 #items th{
   text-align: center!important;
 }
+.page-left{
+  background-image: url("/static/img/page-left-bg.jpg");
+  background-attachment: fixed;
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  border-right: 2px solid white;
+}
