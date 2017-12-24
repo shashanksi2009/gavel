@@ -537,8 +537,9 @@ body {
 .haction ul{
     padding: 0!important;
 }
-.haction li{
+.haction li {
     display: table-cell!important;
+    padding: 0 5px;
 }
 #items th{
   text-align: center!important;
@@ -603,4 +604,22 @@ td.haction {
     font-family: monospace;
     padding: 0;
     padding-bottom: 0px!important;
+}
+.fa.fa-magic {
+    color: gold;
+    text-shadow: 0 0 2px #fffcfc;
+}
+.fa.fa-eye {
+    color: gold;
+    text-shadow: 0 0 2px #fffcfc;
+}
+.fa.fa-remove {
+    color: red;
+    text-shadow: 0 0 2px #fffcfc;
+}
+.haction ul {
+    padding: 0!important;
+    margin: 2px;
+    width: 80px;
+    margin: auto;
 }
