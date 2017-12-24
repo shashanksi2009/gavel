@@ -570,6 +570,8 @@ body {
     left: 5%;
     position: absolute;
     width: 90%;
+    opacity: 0.85;
+    filter:alpha(opacity=85);
 }
 .page-left table, .page-left tr, .page-left td, .page-left th{
     border: 1px solid #a7ada7!important;
