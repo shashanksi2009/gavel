@@ -580,7 +580,6 @@ td.hname{
     text-transform: uppercase;
     color: gold;
     padding: 2px;
-    border-radius: 50%;
 }
 td.hloc {
     text-align: center;
