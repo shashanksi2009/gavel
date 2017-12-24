@@ -535,8 +535,11 @@ body {
     border-bottom:none!important;
 }
 .haction{
-    padding: 0;
+    padding: 0!important;
 }
 .haction li{
-    display: table-cell;
+    display: table-cell!important;
+}
+#items th{
+  text-align: center!important;
 }
