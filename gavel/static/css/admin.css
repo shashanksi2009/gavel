@@ -544,7 +544,7 @@ body {
   text-align: center!important;
 }
 .page-left{
-  background-image: url("/static/img/page-left-bg.jpg");
+  background-image: url("/static/media/page-left-bg.jpg");
   background-attachment: fixed;
   background-blend-mode: color-burn;
   background-repeat: no-repeat;
