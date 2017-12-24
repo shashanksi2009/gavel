@@ -601,6 +601,6 @@ td.haction {
 .page-left td {
     font-size: 16px;
     font-family: monospace;
-    padding: 0 0.25rem;
+    padding: 0;
     padding-bottom: 0px!important;
 }
