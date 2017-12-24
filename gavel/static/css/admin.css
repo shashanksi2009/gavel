@@ -570,3 +570,31 @@ body {
     position: absolute;
     width: 90%;
 }
+.page-left table, .page-left tr, .page-left td, .page-left th{
+    border: 1px solid #a7ada7!important;
+}
+td.hname{
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: gold;
+    padding: 2px;
+    border-radius: 50%;
+}
+td.hloc {
+    text-align: center;
+    color: aqua;
+    padding: 2px;
+}
+td.hkey {
+    text-align: center;
+    font-weight: 800;
+    font-family: monospace;
+    letter-spacing: 5px;
+    color: yellowgreen;
+    padding: 2px;
+}
+td.haction {
+    font-size: 18px;
+    padding: 2px;
+}
