@@ -602,8 +602,7 @@ td.haction {
 .page-left td {
     font-size: 16px;
     font-family: monospace;
-    padding: 0;
-    padding-bottom: 0px!important;
+    padding: 5px;
 }
 .fa.fa-magic {
     color: gold;
