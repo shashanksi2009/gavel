@@ -546,21 +546,9 @@ body {
 .page-left{
   background-image: url("/static/media/page-left-bg.jpg");
   background-attachment: fixed;
-  background-blend-mode: color-burn;
+  background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
   border-right: 2px solid white;
-}
-.page-left-overlay{
-    position:  absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #b9d8bb;
-    opacity: 0.75;
-    filter: blur(10px)!important;
-    -ms-filter: blur(10px)!important;
-    -webkit-filter: blur(10px)!important;
 }
