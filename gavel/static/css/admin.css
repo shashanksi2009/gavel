@@ -552,3 +552,21 @@ body {
   box-sizing: border-box;
   border-right: 2px solid white;
 }
+.page-left .banner{
+    font-weight: 900;
+    font-family: open-sans;
+    letter-spacing:  10px;
+    text-shadow: 0 0 2px white, 0 0 2px white;
+    /* position: absolute; */
+    border-radius: 20px 20px 0 0;
+    border: 1px solid white;
+    box-shadow: 0 5px 20px 2px #76c67b;
+    background-color: #76c67b;
+    color: #fffefa;
+}
+.page-left .info{
+    padding: 0;
+    left: 5%;
+    position: absolute;
+    width: 90%;
+}
