@@ -534,7 +534,7 @@ body {
 .bs-popover-bottom .popover-header:before{
     border-bottom:none!important;
 }
-.haction{
+.haction ul{
     padding: 0!important;
 }
 .haction li{
