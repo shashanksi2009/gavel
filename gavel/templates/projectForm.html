@@ -1,5 +1,11 @@
-		<div class="container">
-
+{% extends "layout.html" %}
+{% block title %}Admin{% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/component.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cs-select.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cs-skin-boxes.css') }}" />
+<div class="container">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/admin.css') }}">
 			<div class="fs-form-wrap" id="fs-form-wrap">
 				<div class="fs-title">
 					<h1>Project Worksheet</h1>
@@ -80,9 +86,9 @@
 			</div>
 
 		</div><!-- /container -->
-		<script src="js/classie.js"></script>
-		<script src="js/selectFx.js"></script>
-		<script src="js/fullscreenForm.js"></script>
+		<script src="{{ url_for('static', filename='js/classie.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/selectFx.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/fullscreenForm.js') }}"></script>
 		<script>
 			(function() {
 				var formWrap = document.getElementById( 'fs-form-wrap' );
@@ -98,9 +104,11 @@
 
 				new FForm( formWrap, {
 					onReview : function() {
-						classie.add( document.body, 'overview' ); // for demo purposes only
+						classie.add( document.body, 'overview' );
 					}
 				} );
 			})();
 		</script>
-		
+{% endblock %}
+{% block footer %}
+{% endblock %}
