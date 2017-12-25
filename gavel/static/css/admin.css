@@ -626,3 +626,12 @@ td.haction {
 .page-left tr:hover{
     background-color: dimgrey!important;
 }
+.page-right {
+    background-image: url("/static/media/page-right-bg.jpg");
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border-left: 2px solid #76c67b;
+}
