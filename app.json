@@ -13,15 +13,15 @@
             "size": "free"
         }
     },
-    "description": "An awesome judging system for hackathons",
+    "description": "Gavel judging system for Hack36",
     "env": {
-        "ADMIN_PASSWORD": "change-this-before-deploying",
-        "SECRET_KEY": "randomly-generate-this-before-deploying",
-        "DISABLE_EMAIL": "true",
-        "BASE_URL": "https://example.com/",
-        "EMAIL_FROM": "_unused_",
-        "EMAIL_USER": "_unused_",
-        "EMAIL_PASSWORD": "_unused_",
+        "ADMIN_PASSWORD": "mnnithacks",
+        "SECRET_KEY": "6x@1et_w-jchll#h9hozmtv0!@vi4q=oze0%-xq(v@&&aqw8-e",
+        "DISABLE_EMAIL": "false",
+        "BASE_URL": "https://hack36judge1.herokuapp.com/",
+        "EMAIL_FROM": "noreply@hack36.com",
+        "EMAIL_USER": "noreply",
+        "EMAIL_PASSWORD": "mnnithacks",
         "IGNORE_CONFIG_FILE": "true"
     },
     "keywords": [
