@@ -69,8 +69,8 @@ DISABLED_MESSAGE =    c.get('disabled_message',                            defau
 LOGGED_OUT_MESSAGE =  c.get('logged_out_message',                          default=constants.DEFAULT_LOGGED_OUT_MESSAGE)
 WAIT_MESSAGE =        c.get('wait_message',                                default=constants.DEFAULT_WAIT_MESSAGE)
 DISABLE_EMAIL = _bool(c.get('disable_email',   'DISABLE_EMAIL',            default=False))
-EMAIL_HOST =          c.get('email_host',      'EMAIL_HOST',               default='smtp.gmail.com')
-EMAIL_PORT =      int(c.get('email_port',      'EMAIL_PORT',               default=587))
+EMAIL_HOST = 'smtp.zoho.com'
+EMAIL_PORT = int(587)
 EMAIL_FROM =          c.get('email_from',      'EMAIL_FROM')
 EMAIL_USER =          c.get('email_user',      'EMAIL_USER')
 EMAIL_PASSWORD =      c.get('email_password',  'EMAIL_PASSWORD')
