@@ -231,6 +231,7 @@ def email_invite_links(annotators):
     emails = []
     for annotator in annotators:
         link = annotator_link(annotator)
+        print( link )
         raw_body = settings.EMAIL_BODY.format(name=annotator.name, link=link)
         body = '\n\n'.join(utils.get_paragraphs(raw_body))
         emails.append((annotator.email, settings.EMAIL_SUBJECT, body))
